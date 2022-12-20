@@ -1,0 +1,19 @@
+.navbar {
+    background-color: lightblue;
+    position: relative;
+    padding: 1rem 4rem;
+    display: flex;
+    justify-content: space-between;
+}
+.navbar a, .links a {
+    text-decoration: none;
+    color: black;
+}
+.links {
+    gap: 1rem;
+    display: flex;
+    align-items: center;
+}
+.links a {
+    font-size: 1.3rem;
+}
